@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
 *{
   padding: 0;
   border: 0;
@@ -6,19 +7,71 @@
   box-sizing: border-box;
 }
 
-body {
-	display: flex;
-  background-color: #251C2D;
-}
 
 .video_inicial{
 
   height: 100%;
   width: 100%;
-  background-color: blueviolet;
+  
   
 }
 
+.navegacion{
+	width:100%;
+	background-color: lightgray;
+  font-size: 20px;
+  font-family: 'K2D', sans-serif;;
+  
+  
+}
+
+.ip{
+  margin-right: 3%;
+}
+.navegacion ul{
+	list-style: none;
+  
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+  padding: 10px;
+}
+
+.menu > li > a{
+	display: block;
+	text-decoration: none;
+  
+}
+
+.submenu{
+	position: absolute;
+	z-index: 4;
+	width: 120%;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+
+.cerrar{
+  position: absolute;
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  animation: desaparicion;
+  animation-duration: 10s;
+  animation-iteration-count:infinite
+}
 .body{
   display: none;
 }
@@ -88,4 +141,38 @@ body {
 
 .video_desaparece video source{
   display: none;
+}
+
+
+
+.contenido{
+  border: solid snow;
+  width: 80%;
+  margin: auto;
+}
+
+.fondo{
+  width: 100%;
+  
+ z-index: 1;
+  position: absolute;
+}
+
+.fondo video {
+width: 100%;
+
+}
+.transparencia{
+  width: 100%;
+  height: 123.5%;
+  background-color: #251C2D;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.75;
+}
+
+.contenido{
+  position: absolute;
+  z-index: 3;
+  color: aliceblue;
 }
