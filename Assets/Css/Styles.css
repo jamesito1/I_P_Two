@@ -1,12 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 *{
   padding: 0;
   border: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: #251C2D;
+}
 
 .video_inicial{
 
@@ -18,15 +24,16 @@
 
 .navegacion{
 	width:100%;
-	background-color: lightgray;
+	background-color: #251C2D;
   font-size: 20px;
   font-family: 'K2D', sans-serif;;
-  
+  color: aliceblue;
   
 }
 
 .ip{
   margin-right: 3%;
+  font-family: 'Lobster', cursive;
 }
 .navegacion ul{
 	list-style: none;
@@ -46,6 +53,9 @@
 }
 
 .submenu{
+  background-color: #251C2D;
+  border-radius: 10px;
+  padding-left: 15px;
 	position: absolute;
 	z-index: 4;
 	width: 120%;
@@ -56,9 +66,8 @@
 .menu li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
+  
 }
-
-
 
 
 .cerrar{
@@ -74,24 +83,28 @@
 }
 .body{
   display: none;
+  opacity: 0;
 }
 
 .body_a{
+  animation: aparicion;
+  animation-duration: 0.3s;
+  opacity: 1;
   display: unset;
+  
+  
 }
 
 .video_inicial video{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   position: absolute;
-  
-  
   animation: desaparicion;
   animation-duration: 28s;
 
 }
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 @keyframes desaparicion{
 0%{
@@ -144,13 +157,6 @@
 }
 
 
-
-.contenido{
-  border: solid snow;
-  width: 80%;
-  margin: auto;
-}
-
 .fondo{
   width: 100%;
   
@@ -162,6 +168,19 @@
 width: 100%;
 
 }
+::-webkit-scrollbar{
+  background-color: transparent;
+  width: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb{
+  background-color: #3E2E4C;
+  border-radius: 10px;
+  width: 2px;
+}
+
 .transparencia{
   width: 100%;
   height: 123.5%;
@@ -175,4 +194,71 @@ width: 100%;
   position: absolute;
   z-index: 3;
   color: aliceblue;
+  width: 70%;
+  left: 15%;
+  right: 15%;
+  
 }
+
+
+
+@keyframes aparicion{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 10;
+  }
+  20%{
+    opacity: 0.20;
+  }
+  
+  30%{
+    opacity: 0.30;
+  
+  }
+  
+  40%{
+    opacity: 0.40;
+  }
+  
+  50%{
+    opacity: 0.50;
+  }
+  
+  60%{
+    opacity: 0.60;
+  }
+  70%{
+    opacity: 0.70;
+  }
+  
+  80%{
+    opacity: 0.80;
+  }
+  
+  90%{
+    opacity: 0.90;
+  }
+  100%{opacity: 1;
+  
+  }
+  
+  }
+
+  .contenido{
+    padding-top: 10px;
+  }
+  .contenido p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 150%;
+  }
+
+  .contenido h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+  }
+
+  .contenido h2{
+    font-family: 'Fjalla One', sans-serif;
+  }
