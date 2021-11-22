@@ -1,0 +1,91 @@
+
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+	display: flex;
+  background-color: #251C2D;
+}
+
+.video_inicial{
+
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+  
+}
+
+.body{
+  display: none;
+}
+
+.body_a{
+  display: unset;
+}
+
+.video_inicial video{
+  width: 100%;
+  position: absolute;
+  
+  
+  animation: desaparicion;
+  animation-duration: 28s;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes desaparicion{
+0%{
+  opacity: 1;
+}
+
+20%{
+  opacity: 0.90;
+}
+
+30%{
+  opacity: 0.80;
+
+}
+
+40%{
+  opacity: 0.70;
+}
+
+50%{
+  opacity: 0.50;
+}
+
+60%{
+  opacity: 0.40;
+}
+70%{
+  opacity: 0.30;
+}
+
+80%{
+  opacity: 0.20;
+}
+
+90%{
+  opacity: 0.10;
+}
+100%{opacity: 0;
+
+}
+
+}
+
+.video_desaparece{
+  display: none;
+}
+
+.video_desaparece video source{
+  display: none;
+}
