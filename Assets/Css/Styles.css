@@ -32,7 +32,7 @@ body{
 }
 
 .ip{
-  margin-right: 3%;
+  margin-right: 72%;
   font-family: 'Lobster', cursive;
 }
 .navegacion ul{
@@ -49,10 +49,11 @@ body{
 .menu > li > a{
 	display: block;
 	text-decoration: none;
+  color: whitesmoke;
   
 }
 
-.submenu{
+.submenu {
   background-color: #251C2D;
   border-radius: 10px;
   padding-left: 15px;
@@ -61,8 +62,17 @@ body{
 	width: 120%;
 	opacity: 0;
 	transition: opacity 0.3s;
+  
+
 }
 
+.submenu li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.submenu li :hover{
+  background-color: yellow;
+}
 .menu li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
