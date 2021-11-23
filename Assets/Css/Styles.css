@@ -1,4 +1,4 @@
-
+@import url(estilos_barra_n.css);
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
@@ -22,62 +22,6 @@ body{
   
 }
 
-.navegacion{
-	width:100%;
-	background-color: #251C2D;
-  font-size: 20px;
-  font-family: 'K2D', sans-serif;;
-  color: aliceblue;
-  
-}
-
-.ip{
-  margin-right: 72%;
-  font-family: 'Lobster', cursive;
-}
-.navegacion ul{
-	list-style: none;
-  
-}
-
-.menu > li{
-	position: relative;
-	display: inline-block;
-  padding: 10px;
-}
-
-.menu > li > a{
-	display: block;
-	text-decoration: none;
-  color: whitesmoke;
-  
-}
-
-.submenu {
-  background-color: #251C2D;
-  border-radius: 10px;
-  padding-left: 15px;
-	position: absolute;
-	z-index: 4;
-	width: 120%;
-	opacity: 0;
-	transition: opacity 0.3s;
-  
-
-}
-
-.submenu li a{
-  text-decoration: none;
-  color: whitesmoke;
-}
-.submenu li :hover{
-  background-color: yellow;
-}
-.menu li:hover .submenu{
-	visibility: visible;
-	opacity: 1;
-  
-}
 
 
 .cerrar{
@@ -207,7 +151,8 @@ width: 100%;
   width: 70%;
   left: 15%;
   right: 15%;
-  
+  border: solid whitesmoke;
+  padding-top: 10px;
 }
 
 
@@ -256,9 +201,7 @@ width: 100%;
   
   }
 
-  .contenido{
-    padding-top: 10px;
-  }
+ 
   .contenido p{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 150%;
@@ -271,4 +214,59 @@ width: 100%;
 
   .contenido h2{
     font-family: 'Fjalla One', sans-serif;
+  }
+
+  .contenedor_img{
+     width: 100%;
+     height: 200px;
+     border:solid whitesmoke;
+     margin:0;
+     position: absolute;
+  }
+
+  .contenedor_img img {
+    width: 100%;
+    height: 100%;
+     object-fit: cover;
+  }
+
+  .contenido_m .titulo_mercurio{
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .contenido_m{
+    position: absolute;
+    z-index: 3;
+    color: aliceblue;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    border: solid whitesmoke;
+    padding-top: 10px;
+  }
+
+  .contenido_m p{
+    padding-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 150%;
+  }
+.contenido_m h2{
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+
+.contenido_m ul li{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 150%;
+    list-style: none;
+}
+  .video_mercurio{
+    padding-top: 10px;
+    width: 90%;
+    margin-left: 50px;
+    border-radius: 20px;
   }
