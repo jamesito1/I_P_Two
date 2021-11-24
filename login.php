@@ -12,7 +12,7 @@ if  (isset($_POST['enviar'])) {
     if (mysqli_num_rows($result) == 1) {
         
         echo 'Consulta Correcta';
-        header('location: Assets/Pages/ndex.html');
+        header('location:Assets/Pages/pagina_principal.html');
     }else{
         echo 'Registro no hallado';
     }

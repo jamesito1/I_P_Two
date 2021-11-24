@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url(estilos_login.css);
 
 *{
   padding: 0;
@@ -11,7 +12,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #251C2D;
+  background-color: #1D092F;
 }
 
 .video_inicial{

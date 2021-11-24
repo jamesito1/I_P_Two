@@ -13,7 +13,7 @@ if(isset($_POST['resgistrarse'])){
     if(!$result){
         die("Falla en el query");
     }
-    header('location:index.php');
+    header('location:Index.php');
 }
 
 
