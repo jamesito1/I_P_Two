@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+.formulario{
+    width: 20%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #F2F3F4;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    
+
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border-radius:5px ;
+    background-color: #F2F3F4;
+    border: solid #BDC3C7 1px;
+    padding-left: 5px;
+    
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #D5F5E3;
+    border-radius:5px ;
+    border: 0;
+    margin-bottom: 9px;
+    
+    
+}
+
+#enviar:hover{
+    background-color: #ABEBC6;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+h1{
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-top: 0;
+    background-color:#F2F3F4 ;
+}
+
+label{
+    margin-right: 3px;
+}
+
+
+.crear_cuenta a{
+    text-decoration: none;
+    color: black;
+}

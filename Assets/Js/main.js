@@ -1,7 +1,7 @@
 let video= document.getElementById("video_inicial")
 let body = document.querySelector(".body")
 
-setTimeout(video1,27000);
+setTimeout(video1,7000);
 
 
 

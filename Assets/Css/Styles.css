@@ -116,11 +116,14 @@ body{
   
  z-index: 1;
   position: absolute;
+ 
 }
 
 .fondo video {
 width: 100%;
+height: 100%;
 
+object-fit: cover;
 }
 ::-webkit-scrollbar{
   background-color: transparent;
@@ -137,11 +140,12 @@ width: 100%;
 
 .transparencia{
   width: 100%;
-  height: 123.5%;
+  height: 122%;
   background-color: #251C2D;
   position: absolute;
   z-index: 2;
   opacity: 0.75;
+  float: inherit;
 }
 
 .contenido{
@@ -250,7 +254,7 @@ width: 100%;
   }
 
   .contenido_m p{
-    padding-top: 10px;
+    padding-top: 20px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 150%;
   }
