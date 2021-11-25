@@ -48,7 +48,7 @@
             <input type="password" id="contra" name="contra" placeholder="Contraseña" required maxlength="10">
     <br>
     <br>
-    <input type="number" id="telefono" name="telefono" placeholder="Telefono" required>
+    <input type="number" id="telefono" name="telefono" placeholder="Telefono" required maxlength="10">
     <br>
     <br>
     <input type="date" id="fecha_n" name="fecha_n" placeholder="Fecha Nacimiento" required>

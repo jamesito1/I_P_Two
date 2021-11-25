@@ -1,11 +1,11 @@
-@import url(estilos_barra_n.css);
-@import url(estilos_login.css);
+@import url('estilos_barra_n.css');
+@import url('estilos_login.css');
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-
+@import url('darth.css');
 *{
   padding: 0;
   border: 0;

@@ -14,7 +14,12 @@
 }
 .navegacion ul{
 	list-style: none;
-  
+    border-radius:10px ;
+}
+
+#mouse_encima:hover{
+background-color: black;
+border-radius:5px ;
 }
 
 .menu > li{
@@ -46,9 +51,14 @@
 .submenu li a{
   text-decoration: none;
   color: whitesmoke;
+  margin: 5px;
+  width: 100%;
+  padding-right: 19px ;
+  padding-left: 15px;
+  border-radius: 5px;
 }
 .submenu li :hover{
-  background-color: yellow;
+  background-color: black;
 }
 .menu li:hover .submenu{
 	visibility: visible;

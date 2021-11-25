@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Css/Styles.css">
 </head>
 <body>
+    <!--Video inicial -->
     <div class="video_inicial" id="video_inicial">
         <video class="video" autoplay="autoplay" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="miVideo">
             <source src="../Img/big bang2.mp4" >
@@ -17,51 +18,59 @@
                 <i class="fas fa-times"></i>
             </button>
     </div>
+    <!--Fin de video inicial-->
     <div class="body">
-    <header>
-    
-        <nav class="navegacion">
-            <ul class="menu">
-                <li class="ip"><a href="pagina_principal.html">Interesting Planets</a> </li>
-                <li  ><i class="fas fa-globe-americas"></i>Planetas
-                    <ul class="submenu">
-                        <li>
-                           <a href="Mercurio.html">Mercurio</a> 
-                        </li>
-                        <li>
-                            <a href="venus.html">Venus</a> 
-                        </li>
-                        <li>
-                            Tierra
-                        </li>
-                        <li>
-                            Marte
-                        </li>
-                        <li>
-                            Jupiter
-                        </li>
-                        <li>
-                            Saturno
-                        </li>
-                        <li>
-                            Neptuno
-                        </li>
-                        <li>
-                            Urano
-                        </li>
-                        <li>
-                            Pluton
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    Extras
-                </li>
-                <li><a href="../../index.php">Salir</a></li>
-            </ul>
+         <header>
+            <nav class="navegacion">
+                <ul class="menu" >
+                    <li class="ip" id="mouse_encima"><a href="pagina_principal.html">Interesting Planets</a> </li>
+                    <li id="mouse_encima"><i class="fas fa-globe-americas"></i>Planetas
+                        <ul class="submenu">
+                            <li>
+                                <a href=" Mercurio.html">Mercurio</a>
+                            </li>
+                            <li>
+                                <a href=" venus.html">Venus</a>
+                            </li>
+                            <li>
+                                <a href=" tierra.html">Tierra</a>
+                            </li>
+                            <li>
+                                <a href=" marte.html">Marte</a>
+                            </li>
+                            <li>
+                                <a href=" jupiter.html">Jupiter</a>
+                            </li>
+                            <li>
+                                <a href=" saturno.html">Saturno</a>
+                            </li>
+                            <li>
+                                <a href=" neptuno.html">Neptuno</a>
+                            </li>
+                            <li>
+                                <a href=" urano.html">Urano</a>
+                            </li>
+                            <li>
+                                <a href=" pluton.html">Pluton</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="mouse_encima">
+                        Extras
+                    </li>
+            
+                    <li id="mouse_encima"><a href="../../index.php">Salir</a></li>
+                    <button class="boton" onclick="dark()" id="boton">
+                        <div class="iconos">
+                            <i class="fas fa-toggle-on"></i> 
+                            
+                         </div>
+                    </button>
+                </ul>
 
-        </nav>
-    </header>
+
+            </nav>
+        </header>
     <div class="fondo">
     
             <video class="video" autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="miVideo">

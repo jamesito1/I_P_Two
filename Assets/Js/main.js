@@ -12,4 +12,6 @@ video.className+=(" video_desaparece");
 body.className+= (" body_a")
 console.log(video);
 }
-
+function dark() {
+    document.body.classList.toggle("dark")
+}
