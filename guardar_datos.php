@@ -11,9 +11,12 @@ if(isset($_POST['resgistrarse'])){
     $query = "insert into usuario values ('$usuario','$contra','$correo','$fecha_n','$telefono')";
     $result =mysqli_query($conn,$query);
     if(!$result){
-        die("Falla en el query");
-    }
+        $_SESSION['message'] = 'El usuario que insertaste ya existe por favor elige otro';
+        header('location: registro.php');
+    }else{
+    $_SESSION["message"]="Se registro con exito";
     header('location:Index.php');
+}
 }
 
 

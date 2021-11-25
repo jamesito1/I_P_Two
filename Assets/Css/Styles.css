@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 *{
   padding: 0;
@@ -147,7 +147,7 @@ object-fit: cover;
   position: absolute;
   z-index: 2;
   opacity: 0.75;
-  float: inherit;
+  
 }
 
 .contenido{

@@ -8,10 +8,40 @@
     padding-top: 20px;
     border-radius:10px;
     box-shadow: 2px 2px 2px 1px whitesmoke;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    
 
     
 }
 
+.fondo_login{
+    width: 100%;
+    height: 100%;
+   z-index: 1;
+    position: absolute;
+    
+   
+  }
+  .fondo_login video {
+    width: 100%;
+    height: 100%;
+    
+    
+    object-fit: cover;
+    }
+
+    .transparencia_login{
+        width: 100%;
+        height: 100%;
+        background-color: #251C2D;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.75;
+        float: inherit;
+      }
 .formulario h1{
     font-family: 'Lobster', cursive;
     font-size: 50px;
@@ -19,7 +49,7 @@
     margin-bottom: 10px ;
 }
 
-.formulario input,button {
+.formulario input{
     width: 400px;
     height: 35px;
     border-radius: 5px;
@@ -28,10 +58,25 @@
     font-family: 'Lobster', cursive;
 }
 
-.formulario button{
+#resgistrarse, #enviar {
     padding-bottom: 30px;
     background-color: aquamarine;
     margin-bottom: 10px;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.formulario_registro input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
 }
 
 .formulario span a {
@@ -51,16 +96,14 @@
     box-shadow: 2px 2px 2px 1px whitesmoke;
     padding-bottom: 20px;
     padding-top: 20px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    
 }
 
-.formulario_registro input,button {
-    width: 400px;
-    height: 35px;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    font-family: 'Lobster', cursive;
-}
+
 
 .formulario_registro h1{
     font-family: 'Lobster', cursive;
@@ -79,8 +122,41 @@
 
 
 
-.formulario_registro button{
-    padding-bottom: 30px;
-    background-color: aquamarine;
-    margin-bottom: 10px;
+
+
+.alerta{
+    width: 35%;
+    font-size: 20px;
+    color: white;
+    background-color: #4B385C;
+    left: 35%;
+    right: 35%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    position: absolute;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    z-index: 3;
+    
+left: 0;
+right: 0;
+
+margin: auto;
+}
+
+
+.alerta_cerrada {
+    display: none;
+}
+
+.cerrar_alerta {
+    color: white;
+    background-color: transparent;
+    margin-left:0px;
+    padding: 0;
+    font-size: 20px;
+    
+    
+    
 }

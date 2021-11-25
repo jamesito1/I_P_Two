@@ -6,7 +6,7 @@ nombre_usuario varchar(10),
 clave varchar (10),
 correo_electronico varchar(60),
 fecha_de_nacimiento date,
-telefono float(10),
+telefono bigint(10),
 primary key (nombre_usuario)
 
 )

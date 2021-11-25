@@ -10,7 +10,7 @@ $conn = mysqli_connect(
 )or die (mysqli_error($mysqli));
 
 if(isset($conn)){
-    echo 'Base de datos conectada';
+    
 }
 
 

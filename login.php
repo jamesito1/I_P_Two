@@ -11,10 +11,11 @@ if  (isset($_POST['enviar'])) {
     $result = mysqli_query($conn, $query);
     if (mysqli_num_rows($result) == 1) {
         
-        echo 'Consulta Correcta';
+       
         header('location:Assets/Pages/pagina_principal.html');
     }else{
-        echo 'Registro no hallado';
+        $_SESSION['message'] = 'Usuario o Contraseña incorrectas';
+        header('location: index.php');
     }
   }
 
