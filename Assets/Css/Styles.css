@@ -125,6 +125,10 @@ body{
  
 }
 
+.contenido .usuario{
+  text-align: justify;
+}
+
 .fondo video {
 width: 100%;
 height: 100%;

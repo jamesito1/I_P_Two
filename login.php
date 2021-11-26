@@ -12,7 +12,8 @@ if  (isset($_POST['enviar'])) {
     if (mysqli_num_rows($result) == 1) {
         
        
-        header('location:Assets/Pages/pagina_principal.html');
+        header('location:Assets/Pages/pagina_principal.php');
+        $_SESSION['a']="Bienvenido $Usuario";
     }else{
         $_SESSION['message'] = 'Usuario o Contraseña incorrectas';
         header('location: index.php');

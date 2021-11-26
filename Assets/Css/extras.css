@@ -35,9 +35,31 @@
     
     
 }
+.transparencia_extras{
+    width: 100%;
+    height: 100%;
+    background-color: #251C2D;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.75;
+    
+  }
 
+  .fondo_extras{
+    width: 100%;
+    height: 100%;
+   z-index: 1;
+    position: absolute;
+   
+  }
 
-
+  .fondo_extras video{
+    width: 100%;
+    height: 100%;
+   z-index: 1;
+    position: absolute;
+   
+  }
 
 .nebulosa h2{
     font-family: 'Lobster', cursive;
@@ -89,4 +111,11 @@
 
 .supernova{
     display: none;
+}
+
+@media (max-width:1920px) {
+   .img_nebulosa{
+
+    margin-top: -20%;
+   }
 }
