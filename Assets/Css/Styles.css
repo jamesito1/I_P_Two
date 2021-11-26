@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url(extras.css);
+@import url('extras.css');
 @import url('darth.css');
-@import url(pie_de_pagina.css);
+@import url('pie_de_pagina.css');
 *{
   padding: 0;
   border: 0;
@@ -28,7 +28,10 @@ body{
   
 }
 
+.usuario {
+  font-family: 'Lobster', cursive;
 
+}
 
 .cerrar{
   position: absolute;

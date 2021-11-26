@@ -85,4 +85,8 @@
 	opacity: 1;
   
 }
-
+.dark .transparencia_extras{
+  background-color: #000000;
+  z-index: 2;
+  opacity: 0.1;
+}
