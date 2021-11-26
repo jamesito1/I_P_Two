@@ -1,0 +1,92 @@
+.nebulosa {
+    position: absolute;
+    color: white;
+    z-index: 3;
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.img_nebulosa{
+
+    float: right;
+    height: 40%;
+    width: 38%;
+   
+    margin-top: -29%;
+    margin-right: 10%;
+}
+
+.img_nebulosa img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+
+.contenido_nebulosa{
+    
+    width: 40%;
+    margin-top: 1%;
+    margin-right: 0;
+    margin-left: 10%;
+    padding-right: 7px;
+    
+    
+}
+
+
+
+
+.nebulosa h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+
+
+}
+.nebulosa h3{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;  
+}
+
+.nebulosa p{
+    padding-top: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 150%;
+    margin-bottom: 10px;
+    
+}
+
+.flecha_izquierda{
+    background-color: transparent;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-left: 10px;
+    float: left;
+    margin-top: 17%;
+   
+}
+
+.flecha_derecha{
+    background-color: transparent;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-right: 10px;
+    float: right;
+    margin-top: -19%;
+   
+    vertical-align: middle;
+}
+
+.nebulosa_adios{
+    display: none;
+}
+
+.supernova_hola{
+    display: unset;
+}
+
+.supernova{
+    display: none;
+}

@@ -1,4 +1,3 @@
-
 let video= document.getElementById("video_inicial")
 let body = document.querySelector(".body");
 
@@ -15,3 +14,5 @@ console.log(video);
 function dark() {
     document.body.classList.toggle("dark")
 }
+
+
