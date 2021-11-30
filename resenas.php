@@ -1,3 +1,4 @@
+<?php include('db.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,6 +68,14 @@
         
         
     <div class="actualiza_dato">
+    <?php if (isset($_SESSION['message'])) { ?>
+    <div class="alerta">
+        <button class="cerrar_alerta" onclick="cerrar_alertaf()" > 
+            <i class="fas fa-times"></i> 
+        </button>
+                <span><?= $_SESSION['message']?></span>
+                </div>
+ <?php session_unset(); } ?>
         <h1>Reseñas</h1>
     <form action="resena.php" method="post">
      <ul class="actualizar_datos">
@@ -90,17 +99,18 @@
     </li>
     </ul>
     </form>
-
-
-    <?php if (isset($_SESSION["message"])) { ?>
     
-                <span><?= $_SESSION["message"]?></span>
-               
- <?php session_unset(); } ?>
-
+</div>
 </div>
 
 
+<script>
+        let cerrar_alerta = document.querySelector(".cerrar_alerta");
+let alerta = document.querySelector(".alerta")
+    function cerrar_alertaf (){
+    alerta.className+=(" alerta_cerrada");
+    console.log(cerrar_alerta)
+}</script>
 <script>
     let estrella = document.querySelectorAll(".estrella")
     

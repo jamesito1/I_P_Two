@@ -17,9 +17,10 @@
 }
 
 .actualiza_dato {
-    border: solid aqua;
+    background-color: #4B385C;
     width: 70%;
-    
+    border-radius:10px ;
+    padding-bottom: 20px;
 }
 
 .actualiza_dato h1 {
@@ -70,6 +71,7 @@ margin-left: 10px;
     text-align: center;
     background-color: aquamarine;
     
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .actualiza_dato button{
@@ -83,4 +85,11 @@ margin-left: 10px;
 
 .estrella_activada{
     color: yellow;
+}
+.confirmacion_comentario span{
+    width: 400px;
+    height: 400px;
+    color: whitesmoke;
+    background-color: turquoise;
+    font-family: 'Lobster', cursive;
 }
