@@ -25,7 +25,7 @@
          <header>
             <nav class="navegacion">
                 <ul class="menu" >
-                    <li class="ip" id="mouse_encima"><a href="pagina_principal.html">Interesting Planets</a> </li>
+                    <li class="ip" id="mouse_encima"><a href="pagina_principal.php">Interesting Planets</a> </li>
                     <li id="mouse_encima"><i class="fas fa-globe-americas"></i> Planetas
                         <ul class="submenu">
                             <li>
@@ -62,7 +62,7 @@
                         <a href="extras.html">Extras</a>
                     </li>
                     <li id="mouse_encima">
-                        Reseñas
+                       <a href="../../reseñas.php"> Reseñas</a>
                     </li>
             
                     <li id="mouse_encima"><a href="../../index.php">Salir</a></li>

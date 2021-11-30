@@ -50,6 +50,17 @@ margin-left: 10px;
     
 }
 
+.actualiza_dato textarea{
+    height: 100px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    padding-left: 20px;
+    border: none;
+}
+
 .actualizar_datos button{
     width: 400px;
     border-radius: 10px;

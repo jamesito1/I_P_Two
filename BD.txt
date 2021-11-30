@@ -10,3 +10,12 @@ telefono bigint(10),
 primary key (nombre_usuario)
 
 )
+
+CREATE TABLE reseñas(
+Id VARCHAR(100),
+reseña INT,
+nombre_usuario varchar(10),
+comentarios varchar(184),
+PRIMARY key(Id),
+FOREIGN KEY (nombre_usuario) REFERENCES usuario(nombre_usuario)
+);
