@@ -13,7 +13,7 @@
     float: right;
     height: 40%;
     width: 38%;
-   
+   border: solid aqua;
     margin-top: -29%;
     margin-right: 10%;
 }
@@ -113,9 +113,9 @@
     display: none;
 }
 
-@media (max-width:1920px) {
-   .img_nebulosa{
-
-    margin-top: -20%;
-   }
-}
+@media (min-width:1920px) {
+    .img_nebulosa{
+ 
+     margin-top: -20%;
+    }
+ }

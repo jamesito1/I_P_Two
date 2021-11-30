@@ -61,7 +61,9 @@
                     <li id="mouse_encima">
                         <a href="extras.html">Extras</a>
                     </li>
-                    
+                    <li id="mouse_encima">
+                        Reseñas
+                    </li>
             
                     <li id="mouse_encima"><a href="../../index.php">Salir</a></li>
                     <button class="boton" onclick="dark()" id="boton">

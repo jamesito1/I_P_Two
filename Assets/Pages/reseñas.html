@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Styles.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="actualiza_dato">
+        <h1>Reseñas</h1>
+    <form action="" method="post">
+     <ul class="actualizar_datos">
+         <li><label for="usuario">Ingresa tu usuario</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Ingresa el usuario" required maxlength="10" ></li>
+         <li> <label for="reseña">Ingresa tu reseña</label>
+        <input type="number" name="reseña" id="reseña" placeholder="Ingresa el valor de tu reseña valor 1-5" min="1" max="5" onchange="pepe()"></li>
+       <br>
+       <li>
+  <span class="estrella"><i class="fas fa-star"></i> </i></span> <span class="estrella"><i class="fas fa-star"></i> </i></span> <span class="estrella"><i class="fas fa-star"></i> </i></span> <span class="estrella"><i class="fas fa-star"></i> </i></span> <span class="estrella"><i class="fas fa-star"></i> </i></span>  </li>
+        <br>
+            <li>
+        <button name="guardar_cambios">Guardar Cambios</button>
+    </li>
+    </ul>
+    </form>
+</div>
+<script>
+    let estrella = document.querySelectorAll(".estrella")
+    
+    function pepe(){
+   let reseña = document.getElementById("reseña").value;
+   if(reseña==1){
+       estrella[0].classList+=(" estrella_activada");
+       console.log(estrella[0]);
+       for(let i=1; i<=4; i++){
+        estrella[i].classList.remove("estrella_activada");
+        console.log(i);
+       }
+       
+   }
+
+   if(reseña>=2){
+     ;
+       for(let i=0; i<=1; i++){
+        estrella[i].classList+=(" estrella_activada");
+        console.log(i);
+       }
+       for(let i=2; i<=4; i++){
+        estrella[i].classList.remove("estrella_activada");
+        console.log(i);
+       }
+       
+       console.log(estrella[0]);
+
+
+    }
+
+    if(reseña>=3){
+     ;
+       for(let i=0; i<=2; i++){
+        estrella[i].classList+=(" estrella_activada");
+        console.log(i);
+       }
+       for(let i=3; i<=4; i++){
+        estrella[i].classList.remove("estrella_activada");
+        console.log(i);
+       }
+       console.log(estrella[0]);
+
+
+    }
+
+    if(reseña>=4){
+     ;
+       for(let i=0; i<=3; i++){
+        estrella[i].classList+=(" estrella_activada");
+        console.log(i);
+       }
+       for(let i=4; i<=4; i++){
+        estrella[i].classList.remove("estrella_activada");
+        console.log(i);
+       }
+       console.log(estrella[0]);
+
+
+    }
+
+    if(reseña==5){
+        for(let i=0; i<=4; i++){
+        estrella[i].classList+=(" estrella_activada");
+        console.log(i);
+       }
+    }
+}
+ 
+
+    
+</script>
+</body>
+</html>

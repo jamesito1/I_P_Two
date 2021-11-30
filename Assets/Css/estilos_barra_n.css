@@ -65,3 +65,11 @@ border-radius:5px ;
 	opacity: 1;
   
 }
+
+@media (max-width:1366px){
+
+  .ip{
+    margin-right: 50%;
+    font-family: 'Lobster', cursive;
+  }
+}
